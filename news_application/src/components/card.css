@@ -3,13 +3,20 @@
     margin-left:20px;
     width:21rem;
     height:25rem;
-    background-color:rgb(246, 244, 244);
+    background-color:rgb(254, 253, 253);
     margin-bottom:0.5cm;
+    border-width: 0.02cm;
+    border-color: rgb(166, 162, 162);
   }
   .card-img-top{
     height:100%;
     border-radius:3px;
-    padding:5px;
+    padding:5px 3px;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
   }
   .card-text{
     font-size:14px;
@@ -28,13 +35,13 @@
   .card-date{
     text-align: left;
     padding-left:12px;
-    font-size:small;
+    font-size:14px;
     color:#0d26e9;
   }
   .button {
     background-color: #1f4ae6;
     border: none;
-    align-items:left;
+    border-radius:5px;
     color: white;
     padding: 5px 7px;
     text-align: center;
@@ -45,12 +52,25 @@
     cursor: pointer;
     background-color: white; 
     color: black; 
-    border: 2px solid #1fa8f8;
+    border: 2px solid #090909;
+    float: left;
+    margin-left:10px;
   }
   .button:hover {
-    background-color:#1fa8f8;
+    background-color:#0b0b0b;
     color: white;
   }
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0.001cm;
+    border: 2px solid red;
+    padding:2px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: azure;
+    background-color: red;
+}
   
    
   

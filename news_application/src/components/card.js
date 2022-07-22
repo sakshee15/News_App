@@ -12,6 +12,7 @@ function Card(){
             <p className='card-text' >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <p className='card-date'>Date and Time</p>
             <button className='button'>Read more</button>
+            <div className="bottom" >Source</div>
           </div>
         </div> 
          );
