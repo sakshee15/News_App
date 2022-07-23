@@ -5,12 +5,7 @@ import Card from './components/card'
 function App() {
   return (
     <div className="App">
-      <div>
-        ...........................................
-      </div>
       <Card></Card>
-      <div>............................................</div>
-
     </div>
   );
 }
