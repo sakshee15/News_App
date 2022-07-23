@@ -64,14 +64,16 @@
   }
   .bottom {
     position: absolute;
-    bottom: 0;
-    right: 0cm;
+    top: 0;
+    left: 0cm;
+    margin-top:5px;
+    margin-left:3px;
     border: 2px #d0e1d6;
     padding:1px 8px;
     border-radius: 4px;
     font-size: 12px;
-    color:#112031;
-    background-color:#D4ECDD;
+    color:#050b12;
+    background-color:#cfe8db;
 }
   
    
