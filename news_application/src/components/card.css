@@ -1,8 +1,8 @@
 .card{
     margin-top:30px;
     margin-left:20px;
-    width:21rem;
-    height:25rem;
+    width:25rem;
+    height:auto;
     background-color:#345B63;
     margin-bottom:0.5cm;
     border-width: 0.02cm;
@@ -23,13 +23,14 @@
     font-weight:light;
     font-style: italic;
     padding-left: 12px;
-    padding-right:8px;
+    padding-right:12px;
     text-align: left;
     color:#94bfc7 ;
   }
   .card-title{
     text-align: left;
     padding-left:12px;
+    padding-right: 12px;
     font-size:24px;
     font-family: "Times New Roman", Times, serif;
     color:#d9e0dc;
@@ -37,6 +38,7 @@
   .card-date{
     text-align: left;
     padding-left:12px;
+    padding-right: 5px;
     font-size:14px;
     color:#cdc6a9;
   }

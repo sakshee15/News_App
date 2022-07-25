@@ -1,18 +1,18 @@
 import React from 'react';
-import image from './newsimage.jpg'
 import './card.css';
 
-function Card(){
+function Card(props){
+  let{title, description, imageUrl,newsUrl, author, date, source}=props;
     return (
         
         <div className='card'>
-          <img className='card-img-top' src={image}/>
+          <img className='card-img-top' src={imageUrl} alt="Error loading !!"/>
           <div >
-            <h3 className='card-title'>Card title</h3>
-            <p className='card-text' >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p className='card-date'>Date and Time</p>
-            <button className='button'>Read more</button>
-            <div className="bottom" ><b>Source</b></div>
+            <h3 className='card-title'>{title}</h3>
+            <p className='card-text' >{description}</p>
+            <p className='card-date'>By {author} on {date}</p>
+            <button className='button'><a href={newsUrl}>Read more</a></button>
+            <div className="bottom"><b>{source}</b></div>
           </div>
         </div> 
          );
