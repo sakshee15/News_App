@@ -11,7 +11,7 @@ function Card(props){
             <h3 className='card-title'>{title}</h3>
             <p className='card-text' >{description}</p>
             <p className='card-date'>By {author} on {date}</p>
-            <button className='button'><a href={newsUrl} target="_blank">Read more</a></button>
+            <a href={newsUrl} target="_blank"><button className='button' >Read more</button></a>
             <div className="bottom"><b>{source}</b></div>
           </div>
         </div> 

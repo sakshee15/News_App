@@ -9,9 +9,11 @@
     border-color: #152D35;
   }
   .card-img-top{
-    height:100%;
+    max-width: 100%;
+    height: 250px;
     border-radius:3px;
     padding:5px 3px;
+   
   }
   .top-right {
     position: absolute;
