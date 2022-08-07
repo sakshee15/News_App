@@ -1,14 +1,11 @@
 import React from "react";
 import Card from "../components/card";
-import Navbar from "../components/navbar";
 import './newspage.css';
 
 const data = require("../data/sampleNews.json")
 const NewsPage=() =>{
     return(
         <>
-            <Navbar/>
-            <br/>
             <div className="body">
                 {
                     data.map((element, index)=>{ 
